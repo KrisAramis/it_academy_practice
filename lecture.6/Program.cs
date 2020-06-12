@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml.Serialization;
 
@@ -27,11 +29,13 @@ namespace lecture._6
 
 
             int[] massive_random = new int[12];
-            //Random R = new Random();
-            //for (int i = 0; i <= 12; i++)
-            ////    massive_random[i] = R.Next();
-            ////Console.WriteLine($"massive:{massive_random}");
-
+            Random R = new Random();
+            for (int i = 0; i < 12; i++)
+            {
+                massive_random[i] = R.Next();
+                Console.WriteLine($"massive number {i}:{massive_random[i]}");
+                Console.WriteLine($"the maxvalue of random massive is:{massive_random.Max()}");
+            }
         }
     }
 }
