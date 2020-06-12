@@ -8,25 +8,30 @@ namespace lecture._6
     {
         static void Main(string[] args)
         {
-              void Task1()
-            {
-                int[] empty_massive = new int[0];
-             }
+            int[] empty_massive = new int[0];
 
-            void Task2()
+            Object[] massive_of_3 = { 32, 'A', "Hello" };
+            foreach (object i in massive_of_3)
             {
-                //int a = 32; char b = 'A'; string c = "Hello";
-                //int [] massive_of_3 = new[] {a,b,c};
-                //massive_of_3[0]= 
+                Console.WriteLine(i);
             }
-            void Task3()
-            {
-                int[] massive_random = new int[12];
-                Random R = new Random();
-                for (int i = 0; i <= 12; i++)
-                    massive_random[i] = R.Next();
-                Console.WriteLine($"massive:{massive_random}");
-            }
+            Console.WriteLine(massive_of_3[0]);
+            Console.WriteLine(massive_of_3[massive_of_3.Length - 1]);
+            massive_of_3[0] = (int)massive_of_3[0] + 10;
+            Console.WriteLine(massive_of_3[0]);
+            massive_of_3[massive_of_3.Length - 1] = massive_of_3[massive_of_3.Length - 1] + ", guys";
+            Console.WriteLine(massive_of_3[massive_of_3.Length - 1]);
+
+
+
+
+
+            int[] massive_random = new int[12];
+            //Random R = new Random();
+            //for (int i = 0; i <= 12; i++)
+            ////    massive_random[i] = R.Next();
+            ////Console.WriteLine($"massive:{massive_random}");
+
         }
     }
 }
