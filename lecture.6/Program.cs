@@ -36,6 +36,10 @@ namespace lecture._6
                 Console.WriteLine($"massive number {i}:{massive_random[i]}");
                 Console.WriteLine($"the maxvalue of random massive is:{massive_random.Max()}");
             }
+
+            short variable = 4040;
+            object obj = variable;
+            sbyte unbox_obj = (sbyte) obj;
         }
     }
 }
