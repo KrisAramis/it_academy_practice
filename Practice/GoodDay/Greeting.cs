@@ -1,23 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+ using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
+using System.Collections.ObjectModel;
 
 namespace GoodDay
 {
     class Greeting
     {
-        DateTime currentdate = DateTime Now { get; };
+        static void Main(string[] args)
+        {
+            DateTime currentdate = DateTime.Now; // год - месяц - день
+            DateTime date2 = new DateTime(2010, 8, 18, 13, 30, 30);
+            TimeSpan number = TimeSpan.FromHours(9);
+            Console.WriteLine(number);
+           TimeSpan fierstinerval = new Hours
 
-        //
-        // Summary:
-        //     Gets a System.DateTime object that is set to the current date and time on this
-        //     computer, expressed as the local time.
-        //
-        // Returns:
-        //     An object whose value is the current local date and time.
-        public static DateTime Now { get; }
+        }
+        public int Hours { get; }
+            public TimeSpan TimeOfDay { get; }
 
-
+        
 
     }
 }
+
