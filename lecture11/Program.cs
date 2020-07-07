@@ -11,6 +11,9 @@ namespace lecture11
             Increament third = new Increament();
             Increament forth = new Increament();
             Increament fifth = new Increament();
+            Increament.ID = 100;
+            Increament sixth = new Increament();
+            Increament seventh = new Increament();
         }
     }
 }
