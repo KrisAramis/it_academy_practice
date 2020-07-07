@@ -6,14 +6,11 @@ namespace lecture11
     {
         static void Main(string[] args)
         {
-            UniqueItem tom = new UniqueItem();
-            tom.getID();
-            Console.WriteLine(tom.getID());
-            UniqueItem bob = new UniqueItem();
-            bob.getID();
-            Console.WriteLine(bob.getID());
-
-
+            Increament first = new Increament();
+            Increament second = new Increament();
+            Increament third = new Increament();
+            Increament forth = new Increament();
+            Increament fifth = new Increament();
         }
     }
 }
