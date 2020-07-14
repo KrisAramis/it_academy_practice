@@ -7,8 +7,9 @@ namespace lecture14.Task1
     {
         static void Main(string[] args)
         {
-            Rectangle a = new Rectangle();
-            a.RectangleArray();
+            Rectangle[] rect;
+            Rectangle.RectangleArray(out rect);
+            Rectangle.FindDuplicates(rect);
         }
     }
 }
