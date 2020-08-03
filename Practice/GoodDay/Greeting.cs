@@ -13,7 +13,7 @@ namespace GoodDay
             DateTime date2 = new DateTime(2010, 8, 18, 13, 30, 30);
             TimeSpan number = TimeSpan.FromHours(9);
             Console.WriteLine(number);
-           TimeSpan fierstinerval = new Hours
+           //TimeSpan fierstinerval = new Hours
 
         }
         public int Hours { get; }

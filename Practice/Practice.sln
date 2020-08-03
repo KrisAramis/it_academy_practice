@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodDay", "GoodDay\GoodDay.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LettersCount", "LettersCount\LettersCount.csproj", "{DDD8C98E-E284-4EBB-A905-3B9F6BCAFDE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{0A113EBA-74F0-47BD-A17C-13B3574A8269}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{0A113EBA-74F0-47BD-A17C-13B3574A8269}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lecture14.Task1", "lecture14.Task1\lecture14.Task1.csproj", "{863132E3-495C-46E0-B15D-56988D9C32E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture14.Task2", "Lecture14.Task2\Lecture14.Task2.csproj", "{A4E62FD2-8D14-4D0B-AE98-C2C91B547DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture14.Task3", "Lecture14.Task3\Lecture14.Task3.csproj", "{9D51EE1E-49BB-400E-ADC4-5F5E80676CD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{0A113EBA-74F0-47BD-A17C-13B3574A8269}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A113EBA-74F0-47BD-A17C-13B3574A8269}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A113EBA-74F0-47BD-A17C-13B3574A8269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863132E3-495C-46E0-B15D-56988D9C32E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863132E3-495C-46E0-B15D-56988D9C32E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863132E3-495C-46E0-B15D-56988D9C32E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863132E3-495C-46E0-B15D-56988D9C32E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E62FD2-8D14-4D0B-AE98-C2C91B547DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E62FD2-8D14-4D0B-AE98-C2C91B547DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E62FD2-8D14-4D0B-AE98-C2C91B547DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E62FD2-8D14-4D0B-AE98-C2C91B547DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D51EE1E-49BB-400E-ADC4-5F5E80676CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D51EE1E-49BB-400E-ADC4-5F5E80676CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D51EE1E-49BB-400E-ADC4-5F5E80676CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D51EE1E-49BB-400E-ADC4-5F5E80676CD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
